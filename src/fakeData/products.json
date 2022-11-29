@@ -1,0 +1,46 @@
+[
+ {
+  "id": "1",
+  "category": "IPhone",
+  "name": "IPHONE 14 PRO",
+  "price": 999,
+  "stock": 10,
+  "ratings": 4,
+  "ratingsCount": 3725,
+  "img": "https://adminapi.applegadgetsbd.com/storage/media/large/iPhone-14-Pro-Max-Deep-Purple-7900.jpg",
+  "quantity": 0
+ },
+ {
+  "id": "2",
+  "category": "Apple Watch",
+  "name": "Apple Watch Series 8",
+  "price": 399,
+  "stock": 20,
+  "ratings": 5,
+  "ratingsCount": 4355,
+  "img": "https://adminapi.applegadgetsbd.com/storage/media/large/Apple-Watch-Series-8-GPS+Cellular-Midnight-4171.jpg",
+  "quantity": 0
+ },
+ {
+  "id": "3",
+  "category": "Keyboard",
+  "name": "Magic Keyboard with Touch ID",
+  "price": 149,
+  "stock": 15,
+  "ratings": 4,
+  "ratingsCount": 3972,
+  "img": "https://adminapi.applegadgetsbd.com/storage/media/large/3113-28589.jpg",
+  "quantity": 0
+ },
+ {
+  "id": "4",
+  "category": "Mouse",
+  "name": "Apple Magic Mouse 2",
+  "price": 79,
+  "stock": 10,
+  "ratings": 5,
+  "ratingsCount": 1764,
+  "img": "https://adminapi.applegadgetsbd.com/storage/media/large/2071-37117.jpg",
+  "quantity": 0
+ }
+]
