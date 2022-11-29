@@ -42,5 +42,49 @@
   "ratingsCount": 1764,
   "img": "https://adminapi.applegadgetsbd.com/storage/media/large/2071-37117.jpg",
   "quantity": 0
+ },
+ {
+  "id": "5",
+  "category": "Mouse",
+  "name": "Apple Magic Mouse 2",
+  "price": 79,
+  "stock": 10,
+  "ratings": 5,
+  "ratingsCount": 1764,
+  "img": "https://adminapi.applegadgetsbd.com/storage/media/large/2071-37117.jpg",
+  "quantity": 0
+ },
+ {
+  "id": "6",
+  "category": "Mouse",
+  "name": "Apple Magic Mouse 2",
+  "price": 79,
+  "stock": 10,
+  "ratings": 5,
+  "ratingsCount": 1764,
+  "img": "https://adminapi.applegadgetsbd.com/storage/media/large/2071-37117.jpg",
+  "quantity": 0
+ },
+ {
+  "id": "7",
+  "category": "Mouse",
+  "name": "Apple Magic Mouse 2",
+  "price": 79,
+  "stock": 10,
+  "ratings": 5,
+  "ratingsCount": 1764,
+  "img": "https://adminapi.applegadgetsbd.com/storage/media/large/2071-37117.jpg",
+  "quantity": 0
+ },
+ {
+  "id": "8",
+  "category": "Mouse",
+  "name": "Apple Magic Mouse 2",
+  "price": 79,
+  "stock": 10,
+  "ratings": 5,
+  "ratingsCount": 1764,
+  "img": "https://adminapi.applegadgetsbd.com/storage/media/large/2071-37117.jpg",
+  "quantity": 0
  }
 ]

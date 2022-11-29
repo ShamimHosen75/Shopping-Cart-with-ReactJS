@@ -13,8 +13,8 @@ const Header = () => {
                 <a href="/inventory">Inventory</a>
             </div>
             <div className='relative'>
-              <AiOutlineShoppingCart className='text-2xl'/>
-              <span className='bg-blue-500 text-black w-5 h-5 rounded-full absolute -top-4 left-2 text-center leading-5'>0</span>
+              <AiOutlineShoppingCart className='text-2xl text-white'/>
+              <span className='bg-orange-600 text-[#063f64] w-5 h-5 rounded-full absolute -top-4 left-2 text-center leading-5'>0</span>
             </div>
         </nav>
   );

@@ -22,7 +22,8 @@ const Shop = () => {
 
   return (
     <div>
-      <div className=''>
+      <h1 className="text-3xl font-bold mt-5 mb-5">Our Products</h1>
+      <div className='flex flex-wrap my-5 container mx-auto'>
             {
               products.map(product => <Product
                key={product.id}
