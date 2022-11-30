@@ -43,6 +43,22 @@ function App() {
     });
   };
 
+
+  //Handle Remove from Cart
+  const handleRemoveFromCart = (id) => {
+    setCart((prev) => {
+      return prev.reduce((cal, item) => {
+        if (item.id === id) {
+          if (item.amount === 1) return cal;
+
+          return [...cal, { ...item, amount: item.amount - 1 }];
+        }
+
+        return [...cal, { ...item }];
+      }, []);
+    });
+  };
+
   return (
     <div className="App">
       <div className="bg-[#063f64]">
@@ -62,6 +78,8 @@ function App() {
       {isShowCart && 
       <Cart 
       cart={cart} 
+      handleAddToCart = {handleAddToCart}
+      handleRemoveFromCart = {handleRemoveFromCart}
       isShowCart = {setIsShowChart} />}
     </div>
   );
