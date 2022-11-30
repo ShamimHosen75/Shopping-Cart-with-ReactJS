@@ -14,7 +14,7 @@ const Header = ({setIsShowCart, cart}) => {
             </div>
             <div className='relative' onClick={() => setIsShowCart(true)}>
               <AiOutlineShoppingCart className='text-2xl text-white'/>
-              {cart > 0 && (
+              {cart.length > 0 && (
                 <span className='bg-orange-600 text-[#063f64] w-5 h-5 rounded-full absolute -top-4 left-2 text-center leading-5'>
                   {cart.length}</span>
               )};

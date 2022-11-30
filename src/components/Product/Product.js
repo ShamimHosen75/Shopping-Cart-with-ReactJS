@@ -1,8 +1,8 @@
 import React from 'react';
 
-const Product = (props, handleAddToCart) => {
+const Product = ({product, handleAddToCart}) => {
   // console.log(props.product);
-  const {name, img, price, stock, brand} = props.product;
+  const {name, img, price, stock, brand} = product;
 
   const DollarUsd = new Intl.NumberFormat('en-us', {
     style : 'currency',
@@ -19,7 +19,7 @@ const Product = (props, handleAddToCart) => {
       <p className='font-semibold'>Stock : {stock}</p>
       <p className='font-semibold'>Brand : {brand}</p>
       <button 
-      onClick={() => handleAddToCart(props)}
+      onClick={() => handleAddToCart(product)}
       className="text-[#063f64] font-semibold bg-orange-600 w-40 rounded-lg py-1 mb-2 mt-3 hover:bg-[#063f64] hover:text-orange-500 hover:scale-x-105">
         Buy Now</button>
     </div>

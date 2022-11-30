@@ -45,7 +45,9 @@ function App() {
 
   return (
     <div className="App">
-      <Header cart={Cart} setIsShowCart ={setIsShowChart}/>
+      <div className="bg-[#063f64]">
+        <Header cart={cart} setIsShowCart ={setIsShowChart}/>
+      </div>
       <div className='flex flex-wrap my-5 container mx-auto'>
             {
               products.map(product => <Product
@@ -59,7 +61,7 @@ function App() {
 
       {isShowCart && 
       <Cart 
-      cart={Cart} 
+      cart={cart} 
       isShowCart = {setIsShowChart} />}
     </div>
   );
