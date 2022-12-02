@@ -40,8 +40,8 @@ function App() {
           );
           
         } else {
-          toast.error("Not more than stock!")
-          return
+          return toast.error("Not more than stock!")
+          
           // console.log("can't update anymore");
         }
       }

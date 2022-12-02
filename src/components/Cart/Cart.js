@@ -36,7 +36,7 @@ const Cart = ({ setIsShowCart, cart, handleAddToCart, handleRemoveFromCart }) =>
        <div onClick={e=>e.stopPropagation()} className="bg-white w-[250px] h-full absolute right-0 overflow-y-scroll py-2">
           <h1 className="bg-[#063f64] text-white font-semibold text-center py-2 -mt-2"> Shopping Cart</h1>
           <div className="flex flex-col items-center px-2">
-            {cart.map(item =>(
+            {!cart.length ? " " : cart.map(item =>(
               <div 
                 key={item.id}
                 className="text-center border-b-[3px] w-full mb-2 flex flex-col items-center" >
@@ -61,11 +61,10 @@ const Cart = ({ setIsShowCart, cart, handleAddToCart, handleRemoveFromCart }) =>
               
             </div>
             ))}
-
-          <p className="font-semibold mb-3">Seleted Items : {cart.length}</p>
+            <p className="font-semibold mb-3">Seleted Items : {cart.length}</p>
           <p className="font-semibold mb-3">Sub Total : {DollarUsd.format(total)}</p>
-          <p className="font-semibold mb-3">Tax : {DollarUsd.format(tax)}</p>
-          <h5 className="text-lg font-bold mb-3">Grand Total : {DollarUsd.format(grandTotal.toFixed(2))}</h5>
+          <p className="font-semibold mb-3 pb-3 border-b-[3px] w-full">Tax : {DollarUsd.format(tax)}</p>
+          <h5 className="text-lg font-bold">Grand Total : {DollarUsd.format(grandTotal.toFixed(2))}</h5>
           </div>
        </div>
     </div>
