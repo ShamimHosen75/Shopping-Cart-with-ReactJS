@@ -1,15 +1,23 @@
-import React, { useRef } from 'react';
+import React from 'react';
 import { AiOutlineMinusSquare, AiOutlinePlusSquare } from "react-icons/ai";
 
 
 const Cart = ({setIsShowCart, cart, handleAddToCart, handleRemoveFromCart}) => {
 
-  const cartRef = useRef();
-  const total = (arr) => {
-    return arr.reduce((cal, item) => {
-      return cal + item.price * item.amount;
-    }, 0);
-  };
+
+  let total = 0;
+    for ( const product of cart) {
+        total = total + product.price;
+    }
+    const tax = parseFloat ((total * 0.1).toFixed (2));
+    const grandTotal = total + tax;
+
+  // const cartRef = useRef();
+  // const total = (arr) => {
+  //   return arr.reduce((cal, item, tax) => {
+  //     return cal + item.price * item.amount + tax;
+  //   }, 0);
+  // };
 
   const DollarUsd = new Intl.NumberFormat('en-US', {
     style: 'currency',
@@ -42,7 +50,15 @@ const Cart = ({setIsShowCart, cart, handleAddToCart, handleRemoveFromCart}) => {
               
             </div>
             ))}
-            <p className="font-bold mb-3">Total : {DollarUsd.format(total(cart))}</p>
+
+            <p className="font-semibold mb-3">Seleted Items : {cart.length}</p>
+            <p className="font-semibold mb-3">Total Price : {DollarUsd.format(total)}</p>
+            <p className="font-semibold mb-3">Tax : {DollarUsd.format(tax)}</p>
+            <h5 className="text-lg font-bold mb-3">Grand Total : {DollarUsd.format(grandTotal.toFixed(2))}</h5>
+            
+            {/* <p className="font-bold mb-3">Sub Total : {DollarUsd.format(total(cart))}</p>
+            <p className="font-bold mb-3">Tax : {DollarUsd.format(total(tax))}</p>
+            <h5 className="font-bold mb-3">Grand Total : {DollarUsd.format(grandTotal.toFixed(2))}</h5> */}
           </div>
        </div>
     </div>

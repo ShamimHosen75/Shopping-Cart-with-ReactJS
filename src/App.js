@@ -6,9 +6,7 @@ import Product from './components/Product/Product';
 
 function App() {
   const [products, setProducts] = useState([]);
-
   const [cart, setCart] = useState([]);
-
   const [isShowCart, setIsShowChart] = useState(false);
 
   useEffect(() =>{
