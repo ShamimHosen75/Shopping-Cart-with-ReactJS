@@ -11,6 +11,16 @@
  },
  {
   "id": "2",
+  "category": "Mouse",
+  "name": "Apple Magic Mouse 2",
+  "price": 79,
+  "stock": 5,
+  "brand": "Apple",
+  "img": "https://adminapi.applegadgetsbd.com/storage/media/large/2071-37117.jpg",
+  "quantity": 0
+ },
+ {
+  "id": "3",
   "category": "Apple Watch",
   "name": "Apple Watch Series 8",
   "price": 399,
@@ -20,7 +30,7 @@
   "quantity": 0
  },
  {
-  "id": "3",
+  "id": "4",
   "category": "Keyboard",
   "name": "Magic Keyboard with Touch ID",
   "price": 149,
@@ -30,51 +40,43 @@
   "quantity": 0
  },
  {
-  "id": "4",
-  "category": "Mouse",
-  "name": "Apple Magic Mouse 2",
-  "price": 79,
-  "stock": 10,
-  "brand": "Apple",
-  "img": "https://adminapi.applegadgetsbd.com/storage/media/large/2071-37117.jpg",
-  "quantity": 0
- },
- {
   "id": "5",
-  "category": "Mouse",
-  "name": "Apple Magic Mouse 2",
-  "price": 79,
+  "category": "IPhone",
+  "name": "IPHONE 14",
+  "price": 799,
   "stock": 10,
   "brand": "Apple",
-  "img": "https://adminapi.applegadgetsbd.com/storage/media/large/2071-37117.jpg",
+  "img": "https://adminapi.applegadgetsbd.com/storage/media/large/iPhone-14-Blue-7810.jpg",
   "quantity": 0
  },
  {
   "id": "6",
-  "category": "Mouse",
-  "name": "Apple Magic Mouse 2",
-  "price": 79,
-  "stock": 10,
+  "category": "Apple Watch",
+  "name": "Apple Watch Series 7",
+  "price": 399,
+  "stock": 20,
   "brand": "Apple",
-  "img": "https://adminapi.applegadgetsbd.com/storage/media/large/2071-37117.jpg",
+  "img": "https://adminapi.applegadgetsbd.com/storage/media/large/3631-66187.jpg",
   "quantity": 0
  },
  {
   "id": "7",
-  "category": "Mouse",
-  "name": "Apple Magic Mouse 2",
-  "price": 79,
+  "category": "IPhone",
+  "name": "IPHONE 14 Plus",
+  "price": 899,
+  "stock": 10,
   "brand": "Apple",
-  "img": "https://adminapi.applegadgetsbd.com/storage/media/large/2071-37117.jpg",
+  "img": "https://adminapi.applegadgetsbd.com/storage/media/large/iPhone-14-Plus-Red-5017.jpg",
   "quantity": 0
  },
  {
   "id": "8",
-  "category": "Mouse",
-  "name": "Apple Magic Mouse 2",
-  "price": 79,
+  "category": "Apple Watch",
+  "name": "Apple Watch Series 6 Nike",
+  "price": 379,
+  "stock": 20,
   "brand": "Apple",
-  "img": "https://adminapi.applegadgetsbd.com/storage/media/large/2071-37117.jpg",
+  "img": "https://adminapi.applegadgetsbd.com/storage/media/large/1548-36802.jpg",
   "quantity": 0
  }
 ]

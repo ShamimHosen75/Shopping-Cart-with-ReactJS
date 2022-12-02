@@ -10,7 +10,7 @@ const Header = ({setIsShowCart, cart}) => {
             <div className="text-xl font-semibold">
                 <a href="/shop">Shop</a>
                 <a href="/orders">Orders</a>
-                <a href="/inventory">Inventory</a>
+                <a href="/Blog">Blog</a>
             </div>
             <div className='relative mt-5' onClick={() => setIsShowCart(true)}>
               <AiOutlineShoppingCart className='text-2xl text-white'/>
